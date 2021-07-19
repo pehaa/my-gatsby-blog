@@ -1,14 +1,11 @@
 import { extendTheme } from "@chakra-ui/react"
 const overrides = {
-  colors: {
-    primary: "teal",
+  fonts: {
+    body: "Merriweather, serif",
+    heading: "Montserrat, sans-serif",
   },
   styles: {
-    global: {
-      a: {
-        color: "primary",
-      },
-    },
+    global: {},
   },
 }
 export default extendTheme(overrides)
